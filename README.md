@@ -1,3 +1,4 @@
-# Neoyning.github.io
-My first blog
-Currently learning jekyll ^_^
+# Learning Swiss Jekyll Theme
+
+## Hello world!!
+### yeah yeah yeah
