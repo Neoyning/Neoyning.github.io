@@ -2,6 +2,7 @@
 layout: post
 title:  "Markdown sample"
 date:   2016-09-04
+categories: self-learning
 ---
 
 ### Markdown test document
