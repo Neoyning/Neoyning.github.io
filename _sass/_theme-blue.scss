@@ -1,21 +1,29 @@
 // Blue theme
 
 // Color variables
+
 $blue: #009DDB;
 $blue-small: #007AB3;
 $gray: #45474A;
 $white: #fff;
+$red: #E74727;
+$yellow: #fec92e;
+$black: #181818;
+$magenta: #CD2DA8;
+$mediumblue: #0000CD;
+$navy: #000080;
+$midnightblue: #191970;
 
 // Config
-$color-background: $gray !default;
-$color-dot-accent: $blue !default;
+$color-background: $midnightblue !default;
+$color-dot-accent: $black !default;
 $color-foreground: $white !default;
-$color-title: $blue !default;
+$color-title: $white !default;
 $color-body-text: $gray !default;
 $color-text-accent: $blue !default;
 $color-code: $blue-small !default;
-$color-nav-link: $blue !default;
-$color-primary-link: $blue !default;
+$color-nav-link: $yellow !default;
+$color-primary-link: $red !default;
 
 .font-smoothing {
   -webkit-font-smoothing: antialiased;
