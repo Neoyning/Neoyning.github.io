@@ -25,6 +25,10 @@ github_username: Neoyning
 social_link: facebook
 social_username: yangyang.ning.31
 
+
+resume: true  
+resume-external: false  
+resume-url: assets/documents/CV-For-applying-Phd.pdf
 # Set theme color here
 # Choose from: black (default), blue, gray, magenta, orange, red, white, and yellow.
 theme_color: white
