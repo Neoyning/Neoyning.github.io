@@ -11,6 +11,7 @@
 
         <div class="clearfix border-bottom-thick header-border">
           <ul class="list-reset right py-1 header-text font-smoothing">
+		  <!--
             {% for my_page in site.pages %}
               {% if my_page.title %}
               <li class="inline-block">
@@ -18,6 +19,18 @@
               </li>
               {% endif %}
             {% endfor %}
+			-->
+
+			 <li class="inline-block">
+				<a class="align-middle link-primary header-link mr-2" href="{{ my_page.url}}/project-experience/">Project</a>
+			 </li>
+			 <li class="inline-block">
+				<a class="align-middle link-primary header-link mr-2" href="{{ my_page.url}}/education/">Education</a>
+			 </li>
+			 <li class="inline-block">
+				<a class="align-middle link-primary header-link mr-2" href="{{ my_page.url}}/self-learning/">Self Learning</a>
+			 </li>
+			 
           </ul>
         </div>
 
@@ -46,11 +59,12 @@
                   {% include dot.html %}
                 </div>
 				<div class="inline-block mt-3 mr-1">
-                  {% include dot.html %}
+                  {% include CV.html %}
                 </div>
                 <div class="inline-block mt-3">
                   {% include {{ site.social_link | default: "twitter" }}.html %}
                 </div>
+				<p class="h4 lh-condensed font-smoothing mt-2 py-1">About me</p>
             </div>
 			<!--col-5 列宽度 -->
 			<div class="col-3 sm-width-full left border-top-thin mt-3 mt-lg-0 ml-lg-4 table">
