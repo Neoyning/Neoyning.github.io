@@ -106,6 +106,57 @@ Definition lists can be used with HTML syntax. Definition terms are bold and ita
 
 ----------------
 
+Math
+\\[
+ \begin{aligned}
+ \dot{x} & = \sigma(y-x) \\\
+ \dot{y} & = \rho x - y - xz \\\
+ \dot{z} & = -\beta z + xy
+ \end{aligned}
+\\]
+
+$$
+c^\intercal=
+\begin{bmatrix}
+c_1 & c_2 & \dots&c_{12} \\
+\end{bmatrix}
+$$
+$$
+A=\begin{bmatrix}
+    -1 & 0 & 0 & \dots  & 0 \\
+    0 & -1 & 0 & \dots  & 0 \\
+    0 & 0 & -1 & \dots  & 0 \\
+    \vdots & \vdots & \vdots & \ddots & \vdots \\
+    0 & 0 & 0 & \dots  & -1\\
+    1 & 0 & 0 & \dots  & 0 \\
+    0 & 1 & 0 & \dots  & 0 \\
+    0 & 0 & 1 & \dots  & 0 \\
+    \vdots & \vdots & \vdots & \ddots & \vdots \\
+    0 & 0 & 0 & \dots  & 1
+\end{bmatrix}\quad
+b=\begin{bmatrix}
+    0\\
+    0\\
+    0\\
+    \vdots\\
+    0\\
+    P_{1,max}\\
+    P_{2,max}\\
+    P_{3,max}\\
+    \vdots\\
+    P_{12,max}
+\end{bmatrix}
+$$
+$$
+G=\begin{bmatrix}
+1 &1 &\dots&1 \\
+\end{bmatrix}
+\quad
+h=P_{demand}
+$$
+
+----------------
+
 Tables should have bold headings and alternating shaded rows.
 
 | Artist            | Album           | Year |
